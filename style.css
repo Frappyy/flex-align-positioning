@@ -1,0 +1,125 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mainEffects {
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.sideEffects {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.fstart {
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+
+.fstart div {
+    margin-left: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}
+
+.fend {
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+}
+
+.fend div {
+    margin-right: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}
+
+.fcenter {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.fcenter div {
+    margin-right: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}
+
+.fbetween {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.fbetween div {
+    margin-right: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}
+
+.faround {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+}
+
+.faround div {
+    margin-right: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}
+
+.fevenly {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+
+.fevenly div {
+    margin-right: 10px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+}

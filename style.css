@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .mainEffects {
     border: solid black 2px;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sideEffects {
@@ -14,6 +27,7 @@
     background-color: blue;
     color: white;
     border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .fstart {
@@ -113,6 +127,7 @@
     justify-content: space-evenly;
     gap: 15px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .fevenly div {
@@ -123,6 +138,94 @@
     align-items: center;
     width: 180px;
     height: 180px;
+}
+
+.header {
+    height: 220px;
+}
+
+.header-inline {
+    height: 145px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-inline-links {
+    color: #14468a;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-inline img {
+    height: 100px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 75px;
+    background-color: #eeeeee;
+    text-align: center;
+
+}
+
+.hmain-links {
+    color: #14468a;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-top {
+    display: flex;
+    background-color: #14468a;
+    height: 250px;
+    justify-content: center;
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    height: 100px;
+    background-color: #14468a;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fbottom-links {
+    color: white;
+    
+}
+
+.fdivs {
+    height: 250px;
+    width: 400px;
+    margin-top: 15px;
+    line-height: 160%;
+}
+
+.partners img {
+    height: 65px;
+    width: 160px;
+    background-color: white;
+}
+
+.footer h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.footer p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 1024px) {

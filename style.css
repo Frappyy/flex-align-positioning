@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 h1 {
     margin-left: 10px;
     margin-top: 10px;

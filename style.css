@@ -32,6 +32,8 @@ h1 {
     color: white;
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace;
+    width: 180px;
+    height: 180px;
 }
 
 .fstart {
@@ -48,8 +50,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .fend {
@@ -66,8 +66,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .fcenter {
@@ -84,8 +82,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .fbetween {
@@ -103,8 +99,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .faround {
@@ -121,8 +115,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .fevenly {
@@ -140,8 +132,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
 }
 
 .header {
@@ -164,6 +154,22 @@ h1 {
 
 .header-inline img {
     height: 100px;
+}
+
+.pimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 175px;
+    height: 75px;
+}
+
+.pimages img {
+    padding: 15px;
+    max-width: 100%;
+    display: block;
+    max-height: 5.8125rem;
 }
 
 .header-main {
@@ -213,10 +219,10 @@ h1 {
     line-height: 160%;
 }
 
-.partners img {
-    height: 65px;
-    width: 160px;
-    background-color: white;
+.pimages-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .footer h3 {
@@ -232,7 +238,91 @@ h1 {
     font-size: 15px;
 }
 
+.pview-quicklinks {
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
+    .header-inline img {
+        height: 100px;
+    }
+
+    .fdivs {
+        height: 250px;
+        width: 100%;
+        margin-top: 15px;
+        line-height: 120%;
+    }
+
+    .partners {
+        display: none;
+    }
+
+    .header {
+        height: 550px;
+    }
+
+    .header-main a {
+        display: none;
+    }
+
+    .header-main {
+        height: 30px;
+    }
+
+    .pview-quicklinks {
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pview-quicklinks h3 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        font-size: 27.5px;
+        margin: 1   5px;
+        padding: 16px 30px;
+        color: #4A4A4A;
+        border-bottom: solid rgba(0, 0, 0, 0.25) 2px;
+    }
+
+    .footer {
+        height: 550px;
+        background-color: #14468A;
+    }
+
+    .fdivs { 
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .footer-top {
+        display: block;
+        height: 500px;
+    }
+
+    .pview-quicklinks-btns {
+        color: #14468A;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        font-size: 23.5px;
+        border: solid #14468A 1px;
+        padding: 17.5px 25px;
+        width: 315px;
+        align-content: center;
+        height: 63px;
+        margin-top: 20px;
+    }
+
+    .header-inline-links {
+        display: none;
+    }
+
+    .header-inline {
+        justify-content: center;
+    }
+
     .mainEffects {
         border: solid black 2px;
         border-radius: 5px;
@@ -245,6 +335,8 @@ h1 {
         background-color: blue;
         color: white;
         border-radius: 10px;
+        height: 50px;
+        width: 50px;
     }
 
     .fstart {
@@ -261,8 +353,6 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
     
     .fend {
@@ -279,8 +369,6 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
     
     .fcenter {
@@ -297,8 +385,6 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
     
     .fbetween {
@@ -316,8 +402,6 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
     
     .faround {
@@ -334,8 +418,6 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
     
     .fevenly {
@@ -352,7 +434,5 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 90px;
     }
 }
